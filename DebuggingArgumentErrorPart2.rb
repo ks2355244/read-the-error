@@ -1,4 +1,4 @@
-def mean(numbers)
+def mean(n)
   sum = numbers.inject(:+)
   
   return sum / numbers.length
