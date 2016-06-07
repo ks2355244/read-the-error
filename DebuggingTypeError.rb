@@ -10,7 +10,7 @@
 
 
 def print_and_sort(array)
-  output_string = ""
+  output_string = " "
   array.each do |element|
     output_string = output_string + " " + element
   end
